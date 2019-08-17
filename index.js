@@ -21,7 +21,7 @@ function sayHiToGrandma(string) {
     return "I love you, too."
   }
   if (!isUpperCase) {
-    return "I can\'t hear you!";
+    return isUpperCase;//"I can\'t hear you!";
   } //else {
     //return `I can't hear you!`;
   //}
